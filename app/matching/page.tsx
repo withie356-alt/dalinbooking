@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -10,7 +10,7 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { dalins, reviews } from '@/lib/mock-data';
 import { Wrench, Star, CheckCircle, MessageCircle, Shield } from 'lucide-react';
 
-export default function MatchingPage() {
+function MatchingContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [isMatching, setIsMatching] = useState(true);
@@ -228,5 +228,30 @@ export default function MatchingPage() {
         </div>
       </main>
     </div>
+  );
+}
+
+export default function MatchingPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex min-h-screen items-center justify-center bg-background p-4">
+        <Card className="w-full max-w-md">
+          <CardContent className="flex flex-col items-center gap-4 py-8 sm:gap-6 sm:py-12">
+            <div className="relative">
+              <div className="h-16 w-16 animate-spin rounded-full border-4 border-primary border-t-transparent sm:h-20 sm:w-20" />
+              <Wrench className="absolute inset-0 m-auto h-6 w-6 text-primary sm:h-8 sm:w-8" />
+            </div>
+            <div className="text-center">
+              <h3 className="mb-2 text-xl font-bold sm:text-2xl">로딩 중...</h3>
+              <p className="text-sm text-muted-foreground sm:text-base">
+                잠시만 기다려주세요
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    }>
+      <MatchingContent />
+    </Suspense>
   );
 }
