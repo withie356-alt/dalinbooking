@@ -1,0 +1,26 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/a0883_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_bc5098db._.js",
+    "static/chunks/a0883_next_dist_compiled_react-dom_122eb2d9._.js",
+    "static/chunks/a0883_next_dist_compiled_react-server-dom-turbopack_5c4a56a1._.js",
+    "static/chunks/a0883_next_dist_compiled_next-devtools_index_1ff351ca.js",
+    "static/chunks/a0883_next_dist_compiled_6ddd6e02._.js",
+    "static/chunks/a0883_next_dist_client_685cc002._.js",
+    "static/chunks/a0883_next_dist_cf3dbe36._.js",
+    "static/chunks/46778_@swc_helpers_cjs_2426e633._.js",
+    "static/chunks/AppProduct_달인부킹_code_a0ff3932._.js",
+    "static/chunks/turbopack-AppProduct_달인부킹_code_313ad555._.js"
+  ]
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js"
+];

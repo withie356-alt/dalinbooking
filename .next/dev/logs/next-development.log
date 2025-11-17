@@ -1,0 +1,276 @@
+[00:00:02.173] Server  LOG     
+[00:00:02.174] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:02.174] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:02.174] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:02.174] Server  LOG     
+[00:00:02.175] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:02.175] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:02.175] Server  LOG     
+[00:00:02.565] Server  LOG      ✓ Ready in 1724ms
+[00:02:17.182] Server  LOG      ○ Compiling / ...
+[00:02:23.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:23.426] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:23.426] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:23.426] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763355067670}
+[00:07:49.400] Server  LOG      ✓ Compiled in 328ms
+[00:08:05.251] Server  LOG      ✓ Compiled in 148ms
+[00:08:06.386] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:08:41.390] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:09:00.313] Server  LOG      ✓ Compiled in 265ms
+[00:09:01.388] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:09:38.444] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:09:57.396] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:10:20.389] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:10:40.417] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:10:40.417] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:11:00.386] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:11:00.386] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:11:20.386] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:11:20.387] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:12:09.396] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:12:28.401] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:13:04.389] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:13:27.401] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:14:05.395] Browser ERROR   ./AppProduct/달인부킹/code/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\이성규\AppProduct\달인부킹\code\app\globals.css:1:1: Cannot apply unknown utility class `shadow-soft`
+    [at Input.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\이성규\AppProduct\달인부킹\code\node_modules\.pnpm\@tailwindcss+postcss@4.1.17\node_modules\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/AppProduct/달인부킹/code/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./AppProduct/달인부킹/code/app/globals.css [Client Component Browser]
+    ./AppProduct/달인부킹/code/app/layout.tsx [Server Component]
+[00:14:07.230] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:08.391] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:08.391] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:14:08.391] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763355771893}
+[00:15:17.026] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:17.240] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:17.240] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:15:17.240] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763355841493}
+[00:16:28.412] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:28.691] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:28.691] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:16:28.691] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763355912948}
+[01:10:32.817] Server  LOG      ✓ Compiled in 122ms
+[01:10:54.466] Server  LOG      ✓ Compiled in 123ms
+[01:11:12.373] Server  LOG      ✓ Compiled in 254ms
+[01:12:05.843] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/request?service=1 color: rgb(120, 120, 120) color: inherit {"dp":"/request","o":"http://localhost:3000/request?service=1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763359250089}
+[01:12:08.762] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763359253013}
+[01:18:01.995] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/request?service=1 color: rgb(120, 120, 120) color: inherit {"dp":"/request","o":"http://localhost:3000/request?service=1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763359606247}
+[01:18:08.379] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763359612637}
